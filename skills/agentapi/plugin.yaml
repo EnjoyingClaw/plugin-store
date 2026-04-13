@@ -1,0 +1,27 @@
+schema_version: 1
+name: agentapi
+version: "1.0.0"
+description: "One API suite for agent AI tools with pay-per-use on-chain payments"
+author:
+  name: "ClawEnjoyer"
+  github: "EnjoyingClaw"
+license: MIT
+category: utility
+tags:
+  - x402
+  - payment
+  - ai
+  - image-generation
+  - video-generation
+  - xlayer
+  - onchainos
+  - hackathon
+
+components:
+  skill:
+    dir: "."
+
+api_calls:
+  - "x402-image-paywall-production.up.railway.app"
+  - "replicate.delivery"
+  - "d14uq1pz7dzsdq.cloudfront.net"
